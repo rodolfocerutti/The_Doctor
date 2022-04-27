@@ -1,124 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
 }
 
-body{
-    background-color: #0B0A0D;
-}
-
-.box{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-    background: #0B0A0D;
-}
-
-.li, a, button{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 500px;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: #0B0A0D;
+    font-size: 24px;
 }
 
-.logo {
-    cursor: pointer;
-}
-
-.nav_links{
-    list-style: none;
-}
-
-.nav_links, li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav_links, li, a{
+.header .navbar a{
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
     transition: all 0.3s ease 0s;
 }
 
-.nav_links, li a:hover{
+.header .navbar a:hover{
     color: #F29305;
 }
 
-.botao_01 {
-    padding: 9px 25px;
+section{
+    padding: 2rem 7%;
+}
+
+.icons{
+    color:#F29305; 
+}
+
+.home{
+    min-height: 126vh;
+    display: flex;
+    align-items: center;
+    background: url(./img/home-img.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.home > .content{
+    max-width: 60rem;
+}
+
+.home > .content > h1{
+    font-size: 14rem;
+    color: #F29305;
+    line-height: 12rem;
+}
+
+.home > .content > h3{
+    font-size: 7rem;
+    color: white;
+    line-height: 8rem;
+}
+
+.button{
+    margin-top: 1rem;
+    display: inline-block;
+    color: white;
     background-color: #F29305;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
-    background-color: #4E565C;
+.button a:hover{
+    color:#0B0A0D;
 }
 
-@media screen and (max-width: 768px){
+.video{
+    display: flex;
+    background-color: #0B0A0D;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
     header{
-        height: 48px;
-        justify-content: space-between;
-        padding: 0, 28px;
+        padding:1.5rem 2rem;
     }
 
-    .logo a{
-        font-size: 0.9rem;
+    section{
+        padding:2rem;
+    }
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
     }
 
-    .logo img{
-        width: 30px;
-    }
-
-    .header__toggle {
-        display: inline;
-        color: white;
-        font-size: 24px;
-    }
-
-    .header__close{
+    .header .navbar{
         position: absolute;
-        right: 24px;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 16rem;
+        height: calc(75vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
         display: block;
-        font-size: 24px;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
     }
 
-    .header__close:hover{
-        color: #F29305;
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
     }
 
-    .nav{
-        position: fixed;
-        top: 0;
-        background-color: #4E565C;
-        color: white;
-        width: 60%;
-        height: 100vh;
-        padding: 24px 0;
-        transition: 0.5s;
-    }
-    .nav__list{
-        display: flex;
-        flex-direction: column;
+    .home .content h3{
+        font-size: 4.5rem;
     }
 
-    .nav__item {
-        margin: 2rem 0;
+    .home .content p{
+        font-size: 1.5rem;
     }
 
-    .show{
-        right: 0;
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
     }
 }
