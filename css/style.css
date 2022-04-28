@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1.7;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+img{
+    width: 100%;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/*navbar - Social Midia*/
+
+.top-nav{
+    background-color: #302E37;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle; 
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.top-nav i, .top-nav span{
+    vertical-align: middle;
+}
+
+.social-links a{
+    width: 34px;
+    height: 34px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-right: 2px;
+}
+
+.social-links a:hover{
+    background-color: #F29305;
+    color: white; 
+}
+
+/*navbar - links*/
+
+.navbar{
+    background-color: #090B0D;
+    font-size: 25px;
+}
+
+
+.btn{
+    padding: 9px 50px;
+}
+
+.btn-brand{
+    background-color: #A6A6A6;
+    font-size: 25px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover{
+    background-color: #F29305;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: #F29305;
+}
+
+/*Title - h1, h2, h3, h4, h5, h6*/
+
+h1{
+    color: #F29305;
+}
+
+h3{
+    color: white;
+}
+
+/* SLIDE */
+
+.slide1{
+    background-image: url(../img/home-img.png);
+}
