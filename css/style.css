@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: white;
 }
@@ -21,6 +20,12 @@ img{
     background-position: center !important;
     background-size: cover !important;
     background-position: center !important;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #101316;
 }
 
 /*navbar - Social Midia*/
@@ -76,6 +81,7 @@ img{
 .btn-brand{
     background-color: #A6A6A6;
     font-size: 25px;
+    font-weight: 600;
     color: white;
     transition: all 0.3s ease 0s;
 }
@@ -96,8 +102,10 @@ img{
 
 /*Title - h1, h2, h3, h4, h5, h6*/
 
-h1{
+.container h1{
     color: #F29305;
+    font-weight: 600;
+    font-size: 60px;
 }
 
 h3{
@@ -108,4 +116,42 @@ h3{
 
 .slide1{
     background-image: url(../img/home-img.png);
+}
+
+.slide2{
+    background-image: url(../img/home-img-2.png);
+}
+
+/*Own Carousel*/
+
+.own-prev,
+.own-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: white;;
+}
+
+/*INFO BOX*/
+.info-box{
+    display: flex;
+    align-items: center;
+}
+
+h5{
+    font-weight: 700;
+    color: #F29305;
+}
+
+.info-box img{
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.bg-info-1{
+    margin-left: 30px;
 }

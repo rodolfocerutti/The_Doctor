@@ -11,3 +11,11 @@
     - Procurar depois como centralizar navbar para projetos futuros
     
 •Eu não ia fazer slides massssssss o site da bhrama faz... então pensei eu que... né.
+
+•Amando isso! ta muito legal! aprendendo pra caramba e estudando muito, está me dando várias ideas para sites futuros!
+
+Melhorias do site 6
+• Carrossel pronto
+• Parte informativa pronta
+    • Duvida - Sera que da para colocar o vídeo (vou tentar)
+    • Pesquisar novas ideas para site.
