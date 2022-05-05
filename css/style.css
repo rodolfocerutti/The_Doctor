@@ -31,7 +31,7 @@ section{
 /*navbar - Social Midia*/
 
 .top-nav{
-    background-color: #302E37;
+    background-color: #1f2429;
     padding-top: 15px;
     padding-bottom: 15px;
     vertical-align: middle; 
@@ -112,6 +112,7 @@ h3{
     color: white;
 }
 
+
 /* SLIDE */
 
 .slide1{
@@ -154,4 +155,153 @@ h5{
 
 .bg-info-1{
     margin-left: 30px;
+}
+
+/*INTRO*/
+
+.intro{
+    margin-bottom: 40px;
+}
+
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+
+.card{
+    background-color: #1f2429;
+    border: none;
+    align-items: baseline;
+}
+
+.card-title{
+    color: #F29305;
+    font-weight: 900px;
+}
+
+#beers{
+    background-color: #1f2429;
+}
+
+/*About the bewery*/
+
+.info-text{
+    display: flex;
+    align-items: center;
+}
+
+/*Reviews*/
+#reviews{
+    background: linear-gradient(rgba(43, 49, 53, 0.671), rgba(43, 49, 53, 0.671)), url(../img/bg-review-img.png)
+}
+
+.review{
+    max-height: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.review img{
+    width: 150px !important;
+    border-radius: 1000px;
+    margin: auto;
+}
+
+.review h4{
+    margin-top: 15px;
+}
+
+.review h4, .review p{
+    color: white;
+    font-weight: 900px;
+}
+
+.review h4{
+    color: #F29305;
+}
+
+.review p{
+    margin-top: 30px;
+}
+
+.owl-dot.active span{
+    background-color: #F29305 !important;
+}
+
+/*Blog post*/
+
+.blog-post{
+    position: relative;
+}
+
+.blog-post .tag{
+    padding: 4x 12px;
+    background-color: #F29305;
+    color: white;
+    border-radius: 100px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.tag{
+    padding: 2px 10px;
+    font-weight: 1000px;
+}
+
+.blog-post h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.blog-post img{
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.blog-post small{
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover{
+    color: #F29305; 
+}
+
+/*footer*/
+
+footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #1f2429;
+    text-align: center;
+}
+
+footer img{
+    max-width: 100px;
+    padding-bottom: 10px;
+}
+
+footer .navbar-brand{
+    color: white;
+}
+
+footer .navbar-brand{
+    max-width: 30px;
+}
+
+
+.footer-top{
+    margin-bottom: 40px;
+}
+
+.footer-bottom{
+    border-top: 1px solid white;
+    padding-top: 20px;
 }

@@ -19,3 +19,6 @@ Melhorias do site 6
 • Parte informativa pronta
     • Duvida - Sera que da para colocar o vídeo (vou tentar)
     • Pesquisar novas ideas para site.
+
+dia 04/05/2022 - Projeto The Doctor Concluido!!! - VOU DEIXAR ASSIM
+NOTA MENTAL: DESCOBRIR COMO MUDAR A COR DO MENU HAMBURGUER.
